@@ -1,0 +1,3 @@
+ok, first I will prepare 1 ec2 machine for development, of course using linux ubuntu or centos7, then I will deploy openssh with docker, and create accounts for the 3 engineers, the next step I will create 3 virtual hosts / vhosts with nginx with addresses url of each engineer such as eki-dev.domain.com
+because this is not publicly accessible, you need a little configuration on linux in the hosts file to add the url, for the CI/CD process maybe you can use gitlab-ci with gitlab runner as the deployer, but this is done when deploying on staging with a trigger branch /staging
+it can be done when all the code has been fixed and merged into the /staging branch
